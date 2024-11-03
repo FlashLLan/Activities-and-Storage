@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activities interactions and storage</string>
+    <string name="Note_Content">Note Content</string>
+    <string name="Save">Save</string>
+    <string name="Note_Title">Note Title</string>
+    <string name="add_note">Add Note</string>
+    <string name="delete_button">Delete Note</string>
+    <string name="back_button">Back Button</string>
+    <string name="save_button">Save Button</string>
+    <string name="Error_Loading">Error loading note content.</string>
+</resources>

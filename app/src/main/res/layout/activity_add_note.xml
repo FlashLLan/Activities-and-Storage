@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/Note_Title"
+            android:inputType="textCapWords" />
+
+
+        <EditText
+            android:id="@+id/noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/Note_Content"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:autofillHints="text" />
+
+
+        <ImageButton
+            android:id="@+id/save_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/save_button"
+            android:contentDescription="@string/save_button"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/back_button"
+        android:contentDescription="@string/back_button"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
